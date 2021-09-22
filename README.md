@@ -47,7 +47,8 @@
 * Submitted code will be assessed based on the following criteria
   * Does it work? The solution should work in replit or codecollab
   * Do we have tests, and do they work?
-  * Did the candidate follow instructions and use replit/codecollab, include tests, include the seed file instead of pasting the data gen into their code etc, as well as other instructions found here.
+  * Is the code clearly documented?
+  * Did the candidate read the README and comprehended the instructions in the README?
   * Defensibility - Does the code handle dirty data, incorrect input data, attacks?
   * Maintainability - Is the code written with small discrete functions, using either a functional or object oriented approach
   * Best practices - Good test coverage, good tests, testing both positive and negative outcomes, good naming of methods and functions in the code
