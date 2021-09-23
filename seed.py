@@ -6,14 +6,6 @@ from random import sample
 start = datetime.now()
 end = start+timedelta(days=60)
 
-# for _ in range(10):
-#  if _ % 2 == 0:
-#   value = randint(1, 12)
-#  else:
-#   value = randint(24, 48) 
-
-# step = timedelta(hours=value)
-
 result = []
 
 while start < end:
