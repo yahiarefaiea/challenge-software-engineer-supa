@@ -32,6 +32,7 @@
 * **REMINDER DO NOT** edit or amend the seed file
 * Include a separate readme in the form of a **instructions.txt** if additional instructions are required to get your solution running
 * Your solution should follow best practices such as DRY, KISS, YAGNI, SOLID etc.
+* Feel free to use 3rd party libraries
 * Solutions that do not follow the submission instructions WILL NOT be considered
 
 ## Hints
