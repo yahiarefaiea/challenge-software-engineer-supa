@@ -54,6 +54,7 @@
 
 ## Expected Outputs
 * During the assessment we expect an output of the following format
+
 | START      | END        | LENGTH |
 |------------|------------|--------|
 | 2021-03-03 | 2021-03-10 |      8 |
