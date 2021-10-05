@@ -29,9 +29,9 @@
 * Do not run the seed file, and then copy the output and paste it as a variable in your code, we want your code to ingest the seed file output at runtime
 * Notify [careers@supahands.com](mailto:careers@supahands.com) upon completion and include the join link for your replit.com project
 * Solutions that do not follow the submission instructions WILL NOT be considered
-* Remember to include unit tests
+* Remember to include unit tests either as separate files or using the replit test functionality
 * **REMINDER DO NOT** edit or amend the seed file
-* Include a separate readme in the form of a **instructions.txt** if additional instructions are required to get your solution running
+* Include a separate readme in the form of a **instructions.txt** if additional instructions are required to get your solution running, such as installing libraries
 * Your solution should follow best practices such as DRY, KISS, YAGNI, SOLID etc.
 * Feel free to use 3rd party libraries
 * Solutions that do not follow the submission instructions WILL NOT be considered
