@@ -26,8 +26,7 @@
 * Use the seed file to generate your output
 * Use the seed file **AS IS**, do not modify the inherent logic of the seed file
 * However, feel free to create js or rb versions of the seed file without modifying the inherent logic in the python original
-* Do not copy the logic of the seed file into your code, we want your code to ingest the seed file output at runtime
-* Do not run the seed file, and then copy the output and paste it as a variable in your code, we want your code to ingest the seed file output at runtime
+* Do not copy the logic of the seed file into your code
 * Notify [careers@supahands.com](mailto:careers@supahands.com) upon completion and include the join link for your replit.com project
 * Solutions that do not follow the submission instructions WILL NOT be considered
 * Remember to include unit tests either as separate files or using the replit test functionality
