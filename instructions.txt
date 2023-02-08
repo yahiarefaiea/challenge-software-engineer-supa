@@ -7,6 +7,8 @@
 2. Run `npm start` to print the expected output. This command basically runs `index.js` using `Babel`.
 Behind the scene, `index.js` imports 2 main files. One is `loginsRepository.js` which holds the logic related to the task, and the other one is `utilities.js` which holds more generic functionalities which can be re-used across the system. We won't need a system for this task anyway, but I thought it would be better this way. :)
 
-3. Run `npm test` to run tests for `loginsRepository.js` and `utilities.js`.
+3. Run `npm test` to run tests for `loginsRepository.js` and `utilities.js`. I hope 8 scenarios are enough for the challenge.
+
+Note: Babel has some performance issues on the initial compile. I think I should've used TS instead. Still, I'm glad about the result. And I hope you're, too!
 
 Thanks for the challenge. **It was so much fun!**
