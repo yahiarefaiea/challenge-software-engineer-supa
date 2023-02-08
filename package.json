@@ -2,10 +2,10 @@
   "name": "software-engineering-test",
   "version": "1.0.0",
   "author": "Yahia Refaiea <hey@yahiarefaiea.com> (http://yahiarefaiea.com)",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
-    "start": "npx babel-node index.js",
-    "test": "mocha spec.js **/*.spec.js",
+    "start": "npx babel-node app/index.js",
+    "test": "mocha spec.js app/**/*.spec.js",
     "generate-dates": "python loginsRecords.py"
   },
   "dependencies": {
