@@ -1,0 +1,36 @@
+{
+  "name": "software-engineering-test",
+  "version": "1.0.0",
+  "author": "Yahia Refaiea <hey@yahiarefaiea.com> (http://yahiarefaiea.com)",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx babel-node index.js",
+    "test": "mocha spec.js **/*.spec.js",
+    "generate-dates": "python loginsRecords.py"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "console-table-printer": "^2.11.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.18.9",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "14.17.1"
+          }
+        }
+      ]
+    ]
+  }
+}
