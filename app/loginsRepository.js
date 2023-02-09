@@ -54,6 +54,8 @@ export function awardLoginsStreaks({dates, i, streak}) {
   const START = dates[i - 1] || END
   const gap = moment(END).diff(moment(START), 'days')
 
+  // decide whether to reset the streak or increase
+  // its value based on the gap between START and END
   if(gap > 1) streak = 1
   else if(gap === 1) streak += 1
 
@@ -63,6 +65,9 @@ export function awardLoginsStreaks({dates, i, streak}) {
 // update logins array
 export function updateLoginsArray({array, loginRecord, streak}) {
   const {START, END, LENGTH} = loginRecord
+
+  // decide whether to push new items
+  // to the array or update the last one
   if(streak > 1) {
     const total = array.length - 1
     const dayRecord = array[total]
