@@ -4,22 +4,16 @@ import {isValidDate, formatDate} from './utilities'
 
 // get logins by streaks
 export function getLoginsByStreaks(loginsRecords) {
-
   // filter all non-dates values
   const timestamps = loginsRecords.filter(record => isValidDate(record))
-
   // sort timestamps
   const timestampsSorted = timestamps.sort()
-
   // format all dates
   const datesFormated = timestampsSorted.map(date => formatDate(date))
-
   // create a duplicate-free version
   const uniqueDates = _.uniq(datesFormated)
-
   // structure dates
   const datesStructured = structureDates(uniqueDates)
-
   // sort dates by length
   const datesSortedByLength = _.orderBy(datesStructured, ['LENGTH', 'START'], ['desc', 'asc'])
 
