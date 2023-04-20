@@ -1,5 +1,5 @@
 # A Take-Home Challenge at SUPA as a Software Engineer
-Please refer to the [./README.old.md](https://github.com/yahiarefaiea/rapida/tree/master/README.old.md) file for more details about the challenge.
+Please refer to the [./README.old.md](https://github.com/yahiarefaiea/challenge-software-engineer-supa/blob/main/README.old.md) file for more details about the challenge.
 
 
 ## Instructions
