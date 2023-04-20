@@ -1,0 +1,19 @@
+# A Take-Home Challenge at SUPA as a Software Engineer
+Please refer to the [./README.old.md](https://github.com/yahiarefaiea/rapida/tree/master/README.old.md) file for more details about the challenge.
+
+
+## Instructions
+0. Make sure `node` and `npm` are installed by running `node -v` and `npm -v`. After that, make sure all dependencies (specified inside `package.json`) are installed by running `npm i`.
+
+1. Run `npm run generate-dates` to generate a new dataset into a file `loginsRecords.json`. This command basically runs `python loginsRecords.py` commands which generate dates using the provided `seed.py`.
+
+2. Run `npm start` to print the expected output. This command basically runs `app/index.js` using `Babel`.
+Behind the scene, `app/index.js` imports 2 main files. One is `app/loginsRepository.js` which holds the logic related to the task, and the other one is `app/utilities.js` which holds more generic functionalities which can be re-used across the system. We won't need a system for this task anyway, but I thought it would be better this way. :)
+
+3. Run `npm test` to run tests for `app/loginsRepository.js` and `app/utilities.js`. I hope 9 scenarios are enough for the challenge.
+
+
+**Note:** Babel has some performance issues on the initial compile. I think I should've used TS instead. Still, I'm glad about the result. And I hope you're, too!
+
+
+Thanks for the challenge. **It was so much fun!**
